@@ -33,6 +33,8 @@ app.configure('development', function(){
 app.get('/users', user.list);
 app.get('/stats', user.fetch);
 app.get('/test', user.fetch2);
+app.get('/t20', user.t20rec);
+app.get('/t20save', user.savettstats);
 app.get('/show', user.statistics);
 app.get('/u', user.updatestats);
 
